@@ -6,7 +6,7 @@
 /*   By: ctremino <ctremino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 21:38:31 by ctremino          #+#    #+#             */
-/*   Updated: 2024/04/06 17:56:16 by ctremino         ###   ########.fr       */
+/*   Updated: 2024/04/07 16:17:33 by ctremino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,6 +64,7 @@ int	main(void)
 	ft_printf("Carácter: %c\n", 'A');
 	ft_printf("Hexadecimal (minúsculas): %x\n", 255);
 	ft_printf("Hexadecimal (mayúsculas): %X\n", 255);
+	ft_printf("Entero en base 10: %i\n", 42 );
 	ft_printf("Puntero: %p\n", (void *)0x12345678);
 	ft_printf("Unsigned Int: %u\n", 429);
 	ft_printf("Esto es el símbolo del porcentaje: %%\n"
@@ -75,6 +76,7 @@ int	main(void)
 	printf("Carácter: %c\n", 'A');
 	printf("Hexadecimal (minúsculas): %x\n", 255);
 	printf("Hexadecimal (mayúsculas): %X\n", 255);
+	printf("Entero en base 10: %i\n", 42 );
 	printf("Puntero: %p\n", (void *)0x12345678);
 	printf("Unsigned Int: %u\n", 429);
 	printf("Esto es el símbolo del porcentaje: %%\n");
