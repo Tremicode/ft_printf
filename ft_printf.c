@@ -6,7 +6,7 @@
 /*   By: ctremino <ctremino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 21:38:31 by ctremino          #+#    #+#             */
-/*   Updated: 2024/04/07 16:17:33 by ctremino         ###   ########.fr       */
+/*   Updated: 2024/04/07 16:33:06 by ctremino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (len);
 }
-int	main(void)
+/*int	main(void)
 {
 	// Ejemplo de uso de ft_printf con diferentes tipos de datos
 	ft_printf("Ejemplo de ft_printf:\n");
@@ -81,7 +81,7 @@ int	main(void)
 	printf("Unsigned Int: %u\n", 429);
 	printf("Esto es el símbolo del porcentaje: %%\n");
 	return (0);
-}
+}*/
 
 /*Tienes que implementar las siguientes conversiones:
 • %c Imprime un solo carácter.

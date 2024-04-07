@@ -6,7 +6,7 @@
 /*   By: ctremino <ctremino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 21:39:07 by ctremino          #+#    #+#             */
-/*   Updated: 2024/04/01 13:39:43 by ctremino         ###   ########.fr       */
+/*   Updated: 2024/04/07 16:33:37 by ctremino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,3 @@ void	ft_putnbr(int n, int *i)
 	}
 	ft_putchar(n % 10 + '0', i);
 }
-
-/*int main()
-{
-	int number = -12345;
-	ft_putnbr(number);
-	return (0);
-}*/
